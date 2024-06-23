@@ -34,7 +34,7 @@ spring:
   datasource:
     #    password: **** JAVA_OPTS=-Dspring.profile="test"
     #    url
-    password: admin@123 # 100% ,ciphers ===>  devs will encrypt this usig spring
+    password:  # 100% ,ciphers ===>  devs will encrypt this usig spring
     url: jdbc:mysql://34.45.206.72:3306/learnerCrownClothing?useSSL=FALSE
     username: root
   jpa:
